@@ -43,6 +43,8 @@ final class CircleProgressBar: UIView {
     bezierPath.lineWidth = lineWidth
     trackTintColor.set()
     bezierPath.stroke()
+    // TableView & CollectionView와 같이 뷰가 그려지기전에는 Rect를 알 수 없으므로 draw(_ rect: CGRect)의 rect값으로 다시한번 더 그려준다.
+    setProgress(rect)
   }
   // Draw progress ui
   private func setProgress(_ rect: CGRect) {

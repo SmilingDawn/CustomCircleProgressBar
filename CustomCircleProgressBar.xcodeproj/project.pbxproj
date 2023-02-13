@@ -16,6 +16,8 @@
 		0F7F01F32999FA050001CC0C /* CustomCircleProgressBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7F01F22999FA050001CC0C /* CustomCircleProgressBarTests.swift */; };
 		0F7F01FD2999FA050001CC0C /* CustomCircleProgressBarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7F01FC2999FA050001CC0C /* CustomCircleProgressBarUITests.swift */; };
 		0F7F01FF2999FA050001CC0C /* CustomCircleProgressBarUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7F01FE2999FA050001CC0C /* CustomCircleProgressBarUITestsLaunchTests.swift */; };
+		0F7F020C2999FA190001CC0C /* CircleProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7F020B2999FA190001CC0C /* CircleProgressBar.swift */; };
+		0F7F0211299A2F7E0001CC0C /* CircleProgressCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7F0210299A2F7E0001CC0C /* CircleProgressCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		0F7F01F82999FA050001CC0C /* CustomCircleProgressBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomCircleProgressBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F7F01FC2999FA050001CC0C /* CustomCircleProgressBarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCircleProgressBarUITests.swift; sourceTree = "<group>"; };
 		0F7F01FE2999FA050001CC0C /* CustomCircleProgressBarUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCircleProgressBarUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0F7F020B2999FA190001CC0C /* CircleProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleProgressBar.swift; sourceTree = "<group>"; };
+		0F7F0210299A2F7E0001CC0C /* CircleProgressCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleProgressCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +103,11 @@
 		0F7F01DA2999FA040001CC0C /* CustomCircleProgressBar */ = {
 			isa = PBXGroup;
 			children = (
+				0F7F020F299A2F620001CC0C /* Custom */,
 				0F7F01DB2999FA040001CC0C /* AppDelegate.swift */,
 				0F7F01DD2999FA040001CC0C /* SceneDelegate.swift */,
 				0F7F01DF2999FA040001CC0C /* ViewController.swift */,
+				0F7F0210299A2F7E0001CC0C /* CircleProgressCell.swift */,
 				0F7F01E12999FA040001CC0C /* Main.storyboard */,
 				0F7F01E42999FA050001CC0C /* Assets.xcassets */,
 				0F7F01E62999FA050001CC0C /* LaunchScreen.storyboard */,
@@ -125,6 +131,14 @@
 				0F7F01FE2999FA050001CC0C /* CustomCircleProgressBarUITestsLaunchTests.swift */,
 			);
 			path = CustomCircleProgressBarUITests;
+			sourceTree = "<group>";
+		};
+		0F7F020F299A2F620001CC0C /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				0F7F020B2999FA190001CC0C /* CircleProgressBar.swift */,
+			);
+			path = Custom;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,7 +273,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F7F01E02999FA040001CC0C /* ViewController.swift in Sources */,
+				0F7F0211299A2F7E0001CC0C /* CircleProgressCell.swift in Sources */,
 				0F7F01DC2999FA040001CC0C /* AppDelegate.swift in Sources */,
+				0F7F020C2999FA190001CC0C /* CircleProgressBar.swift in Sources */,
 				0F7F01DE2999FA040001CC0C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,7 +453,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = WKG55UP4ST;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CustomCircleProgressBar/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -465,7 +481,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = WKG55UP4ST;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CustomCircleProgressBar/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -493,7 +509,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = WKG55UP4ST;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MARKETING_VERSION = 1.0;
@@ -513,7 +529,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = WKG55UP4ST;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MARKETING_VERSION = 1.0;
@@ -532,7 +548,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = WKG55UP4ST;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.elinha.CustomCircleProgressBarUITests;
@@ -550,7 +566,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = WKG55UP4ST;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.elinha.CustomCircleProgressBarUITests;
